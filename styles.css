@@ -42,8 +42,11 @@ header{
 }
 
 .cadastro{
-    height: 43px;
-    width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 105px;
     text-decoration: none;
     border-bottom: 1px solid;
 }
@@ -51,19 +54,72 @@ header{
 .botaoentrar{
     height: 43px;
     width: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     border: none;
     background-color: #C92071;
     color:#fff;
+    text-decoration: none;
+}
 
+.botao_ofertas{
+    height: 43px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    background-color: #C92071;
+    color:#fff;
+    text-decoration: none;
+}
+
+.botao_ofertas_a{
+    height: 43px;
+    width: 200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.Home{
+    color: #C92071;
+    font-weight: 700;
+    border-bottom:  solid;
+}
+
+.botaoentrara{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .textointerno{
+    text-decoration: none;
     font-family: 'arial';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter';
+}
+
+.redes-sociais{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
 }
 
 .logo{
@@ -78,6 +134,17 @@ header{
     color: #C92071;
 }
 
+.logo2{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+}
 
 
 nav{
@@ -100,17 +167,21 @@ nav span:first-child{
 
 
 section{
-    display: flex;
     width: 1555px;
     height: 635px;
     background-color: #F5F5F5;
-    border-radius: 0px 0px 20px 20px;
+}
+
+.anuncio1{
+    display: flex;
+    width: 1555px;
+    height: 580px;
+    background-color: #F5F5F5;
 }
 
 .anuncio{
     display: flex;
     flex-direction: column;
-    width: 635px;
     margin-left: 112px;
     justify-content: center;
 }
@@ -150,24 +221,72 @@ section{
     letter-spacing: 0.9px;
 }
 
+.texto_footer{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200;
+}
+
 .divtenis{
     display: flex;
-    height: 635px;
     margin-left: -200px;
 }   
 
-
 .pontinhos{
-    margin-left: 0px;
+    margin-left: 20px;
     margin-top: 80px;
+    margin-right: 40px;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
 }
 
 footer{
     width: 1555px;
     display: flex;
-    justify-content: center;
-    margin-top: -50px;
+    height: 450px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
+
+.footern1_01{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footern2_01{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footern2_02{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.footern2_03{
+    width: 30%;
+    margin-left: 80px;
+}
+
+.foortern1_02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 input[class="radio"]:checked:after {
     width: 15px;
@@ -176,4 +295,15 @@ input[class="radio"]:checked:after {
     background-color:#C92071;
     content: '';
     display: inline-block;
+}
+
+h3{
+    font-weight: 100;
+}
+
+hr{
+    margin: 10px 50px 10px 50px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
 }
